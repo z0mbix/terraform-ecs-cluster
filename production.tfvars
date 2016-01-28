@@ -1,0 +1,6 @@
+environment = "production"
+instance_type = "c4.xlarge"
+volume_size = "40"
+min_size = "1"
+max_size = "10"
+desired_capacity = "2"
