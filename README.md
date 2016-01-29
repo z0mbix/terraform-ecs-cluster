@@ -42,6 +42,8 @@ This will download a simple ECS config file template from S3 that is used to con
 
 You will need to set your Docker ID email address and token in the template and upload it to a S3 bucket, then amend the path in **main.tf**. You can get the token by running 'docker login', to log in and then get the token from the auth field of the config file **~/.docker/config.json**.
 
+This file and the environment variables you can use are documented nicely on the [Amazon ECS docs site](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/private-auth.html).
+
 ## Destroying stuff
 
 When you are done, you can destroy the cluster with the following two steps:
