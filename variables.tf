@@ -69,9 +69,9 @@ variable "availability_zones" {
 # VPC IDs
 variable "vpc_id" {
     default = {
-        production = "vpc-25b11540"
-        staging = "vpc-3b30a75e"
-        qa = "vpc-713daa14"
+        production = "vpc-XXXXXX"
+        staging = "vpc-XXXXXXXX"
+        qa = "vpc-XXXXXXXX"
     }
     description = "VPC ID"
 }

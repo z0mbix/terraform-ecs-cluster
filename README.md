@@ -1,6 +1,10 @@
 Terraform ECS configuration
 ===========================
 
+Before you run this, you will need to set your VPC and Subnet IDs in **variables.tf**. You will also need to install terraform either by downloading it from the [Terraform Website](https://www.terraform.io/downloads.html) or if you use homebrew:
+
+    $ brew install terraform
+
 ## Small staging environment
 
 This is an example of creating a small ECS cluster staging environment.
